@@ -40,6 +40,7 @@ I genuinely believe that the current landscape of such tools is an outright emba
   If some "framework" pulls in a component you might not need, something is very wrong.
 - ...web "MVC". If your "controller" returns a "model and view", you don't understand MVC. Even worse if you return a "model"
   and rely on "the framework" to perform the view portion by "automatically" turning the returned object into JSON/XML.
+  Spring, I'm looking at you!
 
 I'm quite aware that 99.999999% of you are pouting (and very likely mad at me) right now. Nonetheless, **really** consider
 the above. I should hope you will find I'm right.
