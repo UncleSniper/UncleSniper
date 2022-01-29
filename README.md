@@ -6,7 +6,11 @@ I genuinely believe that the current landscape of such tools is an outright emba
   component to the degree that you could write it yourself if it didn't exist, IMNSHO, you have no business using it. (The one
   exception to this is the compiler/linker portion of the toolchain, and even there, you should have at least a rough grasp on
   what those do.) By semi-extension, if something is "automatic", it is to be regarded with severe scepticism. Spring and JPA,
-  I'm looking at you!
+  I'm looking at you! (Also, so-called IDEs qualify. That thing where it auto-completes the expression you're writing (as with
+  suggesting the correct fields/methods after typing a '.')? You have no idea how it does that (which (statistically) you
+  don't)? Then don't use that IDE. Trust me, it will end up biting you &mdash; if nothing else, then in the sense that you
+  will end up asking me to solve the problems you have with your "IDE", despite the fact that I don't use it. I'm not kidding;
+  like 30% if my work time is wasted on just that.)
 - ...static provision of wiring. Simply put, if something involves reflection (especially annotations other than ``@Override``
   and possibly ``@Deprecated``), the author is very likely doing something wrong (unless they are implementing something like
   an IoC container). (Naturally, you have even less business using ``@SuppressWarnings``, unless you actually grasp the
