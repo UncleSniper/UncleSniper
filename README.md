@@ -1,4 +1,4 @@
-Hi, I’m @UncleSniper.
+Hi, I’m @UncleSniper. (If you played Quake 3 back in the day, you might know why I'm called that...)
 I'm an old school programmer all about writing tools, libraries, and frameworks for software developers (as opposed to end users).
 I genuinely believe that the current landscape of such tools is an outright embarrassment to the software engineering community
 (~~no~~ yes offense). These days, I'm mostly looking to fix up the Java ecosystem in a way that allows you to get away from...
