@@ -13,7 +13,7 @@ I genuinely believe that the current landscape of such tools is an outright emba
   like 30% if my work time is wasted on just that.)
 - ...static provision of wiring. Simply put, if something involves reflection (especially annotations other than ``@Override``
   and possibly ``@Deprecated``), the author is very likely doing something wrong (unless they are implementing something like
-  an IoC container &mdash; an no, Spring doesn't count, see the "bad wiring" rule below).
+  an IoC container &mdash; and no, Spring doesn't count, see the "bad wiring" rule below).
   (Naturally, you have even less business using ``@SuppressWarnings``, unless you actually grasp the
   implications, which (statistically) you don't.) Spring and JPA, I'm looking at you! Similarly, if the documentation/reference
   of something mentions "the classpath", stay the frak away from it. Every "logging framework" ever (other than
